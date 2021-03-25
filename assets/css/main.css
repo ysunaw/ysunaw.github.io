@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-
+/*@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*/
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -99,11 +100,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #fff1e6;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #f0efeb 15%, #8cc9f0 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #f0efeb 15%, #8cc9f0 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #f0efeb 15%, #8cc9f0 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #f0efeb 15%, #8cc9f0 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,12 +121,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		background-color: #eddcd2;
+		color: #094067;
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Poppins", sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -303,19 +304,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: #094067;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #094067;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: #094067;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #094067;
 	}
 
 	blockquote {
@@ -1925,7 +1926,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff !important;
+		color: #094067 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1958,7 +1959,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #8cc9f0;
-			color: #ffffff !important;
+			color: #094067 !important;
 			box-shadow: none;
 		}
 
@@ -2167,7 +2168,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #8cc9f0;
 		}
 
 	input[type="checkbox"] + label,
@@ -2348,8 +2349,8 @@ input, select, textarea {
 		}
 
 	.icon.alt {
-		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		border-color: #094067;
+		color: #094067;
 	}
 
 		.icon.alt:hover {
@@ -2488,7 +2489,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #094067;
 	}
 
 /* Actions */
@@ -3335,24 +3336,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #094067;
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #094067;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #094067;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #094067;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #094067;
 		}
 
 		#main blockquote {
@@ -3546,10 +3547,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #094067, #90b4ce);
+			background-image: -webkit-linear-gradient(90deg, #094067, #90b4ce);
+			background-image: -ms-linear-gradient(90deg, #094067, #90b4ce);
+			background-image: linear-gradient(90deg, #094067, #90b4ce);
 		}
 
 		#main table tbody tr {
